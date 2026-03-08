@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --background: #08080f;
+  --surface: #0f0f1a;
+  --surface2: #16162a;
+  --border: #1e1e35;
+  --accent: #22c55e;
+  --accent2: #7c3aed;
+  --text: #f1f5f9;
+  --muted: #64748b;
+  --live: #ef4444;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+  font-family: 'Inter', system-ui, sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }

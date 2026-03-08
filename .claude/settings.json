@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3001)",
+      "Bash(curl -s \"http://localhost:3001/dashboard\")"
+    ],
+    "additionalDirectories": [
+      "/Users/princeineh/Desktop/Desktop → my-first-project/wardsoccer/apps/frontend/app/match",
+      "/Users/princeineh/Desktop/Desktop → my-first-project/wardsoccer/apps/frontend/app/clubs/[id]"
+    ]
+  }
+}
